@@ -19,4 +19,4 @@ setelah menyelesaikan modul praktikum ini, mahasiswa diharapkan mampu
 3.install expo CLI 
 -buka terminal pada code editor
 -ketik "npx create-expo-app ptmn2 --template blank"
-![alt text](image-2.png)
+![alt text](image-3.png)
