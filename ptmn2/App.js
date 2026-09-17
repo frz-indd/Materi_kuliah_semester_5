@@ -2,15 +2,17 @@ import { StatusBar } from 'expo-status-bar';
 import { ImageBackground, StyleSheet, View } from 'react-native';
 
 export default function App() {
-  return (
-    <ImageBackground
-      source={require('../output.png')}
-      style={styles.background}
-      resizeMode="cover"
-    >
-      <View style={styles.overlay} />
+   return (
+    <View style={styles.container}>
+      <Text style={styles.label}>Nama : <Text style={styles.value}>mohamad fariz rachman pratama</Text></Text>
+      <Text style={styles.label}>Tempat tanggal lahir : <Text style={styles.value}>Cirebon, 1 maret 2006</Text></Text>
+      <Text style={styles.label}>Cita cita : <Text style={styles.value}>Financial freedom</Text></Text>
+      <Text style={styles.label}>
+        Rencana hidup : <Text style={styles.value}>setelah kuliah saya berencana membangun usaha sebagai sampingan, lalu jika usaha yang saya jalankan sudah berjalan dan banyak pelanggan saya akan mulai ternak ayam broiler untuk bisnis telur dan daging</Text>
+      </Text>
+
       <StatusBar style="auto" />
-    </ImageBackground>
+    </View>
   );
 }
 
