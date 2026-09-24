@@ -84,7 +84,7 @@ const SECTIONS = [
 
 const SOCIAL = [
   { id: 's1', label: 'GitHub', icon: '💻', url: 'https://github.com/frz-indd' },
-  { id: 's2', label: 'GitHub', icon: '💻', url: 'https://github.com/frz-indd' },
+  { id: 's2', label: 'GitHub', icon: '💻', url: 'https://github.com/fariz-ind' },
 ];
 
 function SkillCard({ item }) {
