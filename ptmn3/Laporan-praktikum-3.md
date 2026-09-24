@@ -32,4 +32,4 @@ tujuan pembelajaran
 ![alt text](image-8.png)
 ![alt text](image-9.png)
 ![alt text](image-10.png)
-<video controls src="2026-09-24 08-17-33.mp4" title="Title"></video>
+    ![alt text](<2026-09-24 08-17-33.gif>)
