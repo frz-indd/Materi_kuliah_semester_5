@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import {
   ActivityIndicator,
   Image,
+  Linking,
   Modal,
   Pressable,
   ScrollView,
@@ -188,7 +189,14 @@ export default function ProfileScreen() {
               <Pressable
                 key={social}
                 accessibilityRole="button"
-                onPress={() => setActionNotice(`Tautan ${social} belum ditambahkan.`)}
+                onPress={() => {
+                  if (social === 'GitHub') {
+                    Linking.openURL('https://github.com/frz-indd');
+                    return;
+                  }
+
+                  setActionNotice(`Tautan ${social} belum ditambahkan.`);
+                }}
                 style={({ pressed }) => [styles.socialButton, pressed && styles.pressed]}
               >
                 <Text style={styles.socialLabel}>{social}</Text>
