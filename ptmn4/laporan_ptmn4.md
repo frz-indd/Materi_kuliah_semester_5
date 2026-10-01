@@ -9,4 +9,4 @@
 3. membuat navigasi
 ![alt text](image-4.png)
 4. test web
-![alt text](<2026-09-30 19-11-29.gif>)
+![alt text](<2026-10-01 08-34-31.gif>)
